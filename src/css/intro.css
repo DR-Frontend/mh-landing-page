@@ -1,15 +1,18 @@
 .intro{
+  position: relative;
+}
+.intro--container{
   height: 90vh;
   width: 100%;
-  position: relative;
-  background-image: url(../assets/imgs/mv-sp.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 .intro--logo{
   width: 90%;
-  position: absolute;
-  top: 35%;
+  position: relative;
+  top: 26%;
   left: 50%;
   transform: translate(-50%,0);
   display: flex;
@@ -21,7 +24,26 @@
   margin: 0 auto;
 }
 .intro p{
+  margin-top: 30px;
   text-align: center;
-  font-weight: bold;
   color: var(--mh-white);
+}
+
+
+
+.scroll{
+  width: 100%;
+}
+.scroll--text,
+.scroll--arrow{
+  width: 100%;
+  color: var(--mh-white);
+  display: flex;
+  justify-content: center;
+}
+.scroll--text p {
+  font-size: .6rem;
+}
+.scroll--arrow img{
+  width: 10%;
 }

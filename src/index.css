@@ -3,10 +3,9 @@
   --mh-white: #fff;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
+  font-weight: bold;
   line-height: 1.5;
-
-  background-image: url(../src/assets/imgs/bg-sp.jpg);
-
+  background-color: #000;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

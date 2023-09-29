@@ -1,13 +1,17 @@
+import './app.css'
+import Background from './components/Background/Background'
 import Intro from './components/intro/intro'
+import Message from './components/message/Message'
+
 
 function App() {
 
   return (
     <>
       <main>
-        <div className="wrapp">
-          <Intro/>
-        </div>
+        <Intro/>
+        <Message/>
+        <Background/>
       </main>
     </>
   )
