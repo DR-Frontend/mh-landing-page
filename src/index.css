@@ -1,11 +1,11 @@
 :root {
+  --mh-green: #efd896;
+  --mh-white: #fff;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
   line-height: 1.5;
-  font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-image: url(../src/assets/imgs/bg-sp.jpg);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -109,9 +109,12 @@ a {
     text-decoration: none;
 }
 img {
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border: none;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: none;
 }
 
 /* box-sizing */
@@ -139,4 +142,8 @@ sup {
 a, area, button, [role="button"], input:not([type=range]), label, select, summary, textarea {
     -ms-touch-action: manipulation;
     touch-action: manipulation;
+}
+
+#root {
+  max-width: 1280px;
 }

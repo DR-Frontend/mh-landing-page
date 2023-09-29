@@ -1,0 +1,27 @@
+.intro{
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  background-image: url(../assets/imgs/mv-sp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro--logo{
+  width: 90%;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.intro--logo img{
+  width: 80%;
+  margin: 0 auto;
+}
+.intro p{
+  text-align: center;
+  font-weight: bold;
+  color: var(--mh-white);
+}

@@ -1,10 +1,14 @@
-import './App.css'
+import Intro from './components/intro/intro'
 
 function App() {
 
   return (
     <>
-      <h1>MH Anniversary</h1>
+      <main>
+        <div className="wrapp">
+          <Intro/>
+        </div>
+      </main>
     </>
   )
 }
