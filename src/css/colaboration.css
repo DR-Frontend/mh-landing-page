@@ -51,3 +51,31 @@
   margin: 40px auto;
   text-align: center;
 }
+
+
+
+/* Tablet */
+@media (width >= 768px) {
+  .project--msi{
+    padding: 6% 0 0 0;
+  }
+  .project--msi h2{
+    font-size: 1.5rem;
+  }
+  .project--msi::before{
+    height: 1.2rem;
+    background-image: url(../assets/imgs/deco_line_sec_first.png);
+  }
+  .project--msi p:nth-of-type(1){
+    margin: 20px 0 50px 0;
+  }
+  .project--msi picture{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid var(--mh-green);
+  }
+  .project--msi p:nth-of-type(2){
+    font-size: .8rem;
+  }
+}

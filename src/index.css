@@ -147,3 +147,12 @@ a, area, button, [role="button"], input:not([type=range]), label, select, summar
 #root {
   max-width: 1280px;
 }
+.hide--mb{
+    display: none;
+}
+
+@media (width >= 768px) {
+    .hide--mb{
+        display: block;
+    }
+}

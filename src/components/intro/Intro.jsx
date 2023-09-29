@@ -8,7 +8,7 @@ export default function Intro() {
       <div className="intro--container">
         <div className="intro--logo">
           <img src={logo20} alt="" />
-          <p>March 2024 marks the 20th anniversary of the Monster Hunter series!</p>
+          <p>March 2024 marks <br className='hide--mb'/>the 20th anniversary <br className='hide--mb'/>of the Monster Hunter series!</p>
         </div>
 
         <div className="scroll">

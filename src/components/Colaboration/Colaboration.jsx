@@ -9,7 +9,7 @@ export default function Colaboration() {
         <h2>20th ANNIVERSARY PROJECT</h2>
         <p>New Anniversary Events and Items</p>
         <picture>
-          <source srcSet={msi} media='(width >= 768px)'/>
+          <source className='project--imgPc' srcSet={msi} media='(width >= 768px)'/>
           <img src={msiMobile} alt="" />
         </picture>
         <p>Plus, look out for other exciting campaigns planned for the 20th anniversary!</p>

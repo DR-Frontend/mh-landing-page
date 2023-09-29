@@ -7,8 +7,8 @@ export default function Message() {
       <div className="message--container">
         <h2>MESSAGE</h2>
         <p className="text">
-          Counting Down to the Monster Hunter Series 20th Anniversary Dear
-          intrepid hunters, The Monster Hunter series will celebrate its 20th
+          Counting Down to the Monster Hunter Series 20th Anniversary<br /> Dear
+          intrepid hunters, <br className='hide--mb'/>The Monster Hunter series will celebrate its 20th
           anniversary in March 2024. <br />
           We on the Monster Hunter team would like to extend our heartfelt
           gratitude to each and every one of our players. <br />
@@ -31,7 +31,7 @@ export default function Message() {
           Monster Hunter: World managed to resonate with people all over the
           world. <br />
           Even though the pandemic prevented us from meeting with many of you
-          directly, you have sent us so many warm messages online. <br />
+          directly, <br className='hide--mb'/>you have sent us so many warm messages online. <br />
           We cannot thank all of you enough for all that you have given to the
           series.
         </p>

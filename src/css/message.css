@@ -21,6 +21,7 @@
   margin-bottom: 1rem;
 }
 .message .text:last-child{
+  margin-top: 2rem;
   text-align: right;
 }
 .message--arrow{
@@ -31,4 +32,24 @@
 }
 .message--arrow img{
   width: 10%;
+}
+
+
+
+/* Tablet */
+@media(width >= 768px){
+  .message h2{
+    margin-bottom: 60px;
+  }
+  .message .text{
+    text-align: center;
+    font-size: .6rem;
+    max-width: 70%;
+  }
+  .message .text:last-child{
+    text-align: center;
+  }
+  .message--arrow img{
+    width: 5%;
+  }
 }
