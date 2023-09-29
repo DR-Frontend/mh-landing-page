@@ -1,0 +1,48 @@
+.sm{
+  padding: 10% 0 4% 0;
+  background-image: url(../assets/imgs/bg-sp.jpg);
+  background-repeat: no-repeat;
+}
+.sm--container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 5% 0 0 0;
+}
+.sm h2{
+  padding-bottom: 30px;
+  color: var(--mh-green);
+  font-size: 2rem;
+  text-align: center;
+}
+.sm p{
+  color: var(--mh-white);
+  font-size: .8rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sm--span{
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+.sm--span p{
+  color: var(--mh-green);
+  font-size: 1.1rem;
+}
+.sm--icons{
+  display: flex;
+  gap: 20px;
+}
+.sm--icons img{
+  height: 20px;
+}
+.sm--portal{
+  margin-bottom: .4rem;
+  padding-top: 5%;
+}
+.sm--portal img{
+  border: 1px solid #333;
+}
