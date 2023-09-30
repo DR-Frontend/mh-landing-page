@@ -30,7 +30,6 @@
 }
 
 
-
 .scroll{
   width: 100%;
 }
@@ -46,4 +45,27 @@
 }
 .scroll--arrow img{
   width: 10%;
+}
+
+
+
+/* Tablet */
+@media (width >= 768px) {
+  .intro--container{
+    height: 50vh;
+  }
+  .intro--logo{
+    width: 30%;
+    top: 5%;
+    left: 85%;
+  }
+  .intro--logo p{
+    margin-top: 0;
+    font-size: .7rem;
+    color: #000;
+  }
+  .scroll--arrow img{
+    width: 5%;
+    padding-top: 5px;
+  }
 }

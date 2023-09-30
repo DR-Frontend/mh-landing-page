@@ -9,15 +9,19 @@ export default function Socialmedia() {
   return (
     <section className="sm">
       <div className="sm--container">
-        <h2>FOLLOW US</h2>
-        <p>Sign up to catch the latest information!</p>
-        <div className="sm--span">
-          <p>Official SNS</p>
-          <div className="sm--icons">
-            <img src={youtube} alt="" />
-            <img src={twitter} alt="" />
-            <img src={facebook} alt="" />
-            <img src={instagram} alt="" />
+        <div className="sm--wrapp">
+          <div className="sm--text">
+            <h2>FOLLOW US</h2>
+            <p>Sign up to catch the latest information!</p>
+          </div>
+          <div className="sm--span">
+            <ul className="sm--icons">
+              <li><p>Official SNS</p></li>
+              <li><img src={youtube} alt="" /></li>
+              <li><img src={twitter} alt="" /></li>
+              <li><img src={facebook} alt="" /></li>
+              <li><img src={instagram} alt="" /></li>
+            </ul>
           </div>
         </div>
         <a href="#" className='sm--portal'>
