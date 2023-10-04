@@ -146,6 +146,7 @@ a, area, button, [role="button"], input:not([type=range]), label, select, summar
 
 #root {
   max-width: 1920px;
+  overflow-x: hidden;
 }
 .hide--mb{
     display: none;
