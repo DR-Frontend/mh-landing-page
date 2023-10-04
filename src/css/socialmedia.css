@@ -52,8 +52,7 @@
 /* Tablet */
 @media (width >= 768px){
   .sm{
-    background-image: none;
-    background-color: rgba(0 0 0 / .7);
+    background-image: url(../assets/imgs/bg.jpg);
   }
   .sm--container{
     padding: 0;
@@ -93,5 +92,25 @@
     display: block;
     width: 45%;
     margin: 0 auto;
+  }
+}
+
+
+
+/* Desktop */
+@media(width >= 768px){
+  .sm--wrapp{
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+  .sm--text h2 {
+    font-size: 2.5rem;
+  }
+  .sm--text p,
+  .sm--icons p{
+    font-size: 1rem;
+  }
+  .sm--icons img{
+    height: 25px;
   }
 }
